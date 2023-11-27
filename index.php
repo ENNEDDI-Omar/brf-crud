@@ -83,7 +83,7 @@
     <div class="search">
       <input type="text" placeholder="Search">
       <div class="icons">
-        <img src="../brf-crud/images/bell.png" alt="" srcset="">
+        <img src="../brf-crud/images/bell.png" style="width: 40px;height: 40px;" alt="" srcset="">
       </div>
       <div class="admin">
         <img src="../brf-crud/images/omar.png" alt="" srcset="">
@@ -112,7 +112,7 @@
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col-md-8 offset-md-2 text-center">
-                <img class="rounded-circle mb-4" alt="avatar1" src="../Brf06/assets/pages/dashboard-b06/images/userimg.png">
+                <img class="rounded-circle mb-4" alt="avatar1" src="../brf-crud/images/userimg.png">
                 <div class="h3 mb-2 font-weight-bold text-black">Total Students</div>
                 <div class="h5 mb-4 font-weight-bold text-gray-800">10,000+ / year</div>
                 <div class="h6 mb-0 font-weight-bold text-gray-800">15% increase from last year</div>
@@ -127,7 +127,7 @@
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col-md-8 offset-md-2 text-center">
-                <img class="rounded-circle mb-4" alt="avatar1" src="../Brf06/assets/pages/dashboard-b06/images/visiimg.png">
+                <img class="rounded-circle mb-4" alt="avatar1" src="../brf-crud/images/visiimg.png">
                 <div class="h3 mb-2 font-weight-bold text-black">Total Students</div>
                 <div class="h5 mb-4 font-weight-bold text-gray-800">10,000+ / year</div>
                 <div class="h6 mb-0 font-weight-bold text-gray-800">15% increase from last year</div>
@@ -142,7 +142,7 @@
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col-md-8 offset-md-2 text-center">
-                <img class="rounded-circle mb-4" alt="avatar1" src="../Brf06/assets/pages/dashboard-b06/images/teachimg.png">
+                <img class="rounded-circle mb-4" alt="avatar1" src="../brf-crud/images/teachimg.png">
                 <div class="h3 mb-2 font-weight-bold text-black">Total Students</div>
                 <div class="h5 mb-4 font-weight-bold text-gray-800">10,000+ / year</div>
                 <div class="h6 mb-0 font-weight-bold text-gray-800">15% increase from last year</div>

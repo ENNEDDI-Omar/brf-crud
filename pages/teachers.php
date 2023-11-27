@@ -84,7 +84,7 @@
         <img src="images/bell.png" alt="" srcset="">
       </div>
       <div class="admin">
-        <img src="images/omar.png" alt="" srcset="">
+        <img src="../images/omar.png" alt="" srcset="">
         <div class="name">
           <h1>ENNEDI Omar <span>admin</span></h1>
         </div>
@@ -125,67 +125,67 @@
                     <td>CHABAB Nabil</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/sadiqi.png"></td>
+                    <td><img src="../images/sadiqi.png"></td>
                   </tr>
                   <tr>
                     <td>MEQDAR Ghizlane</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/aymen.png"></td>
+                    <td><img src="../images/aymen.png"></td>
                   </tr>
                   <tr>
                     <td>Mohammed SADQ</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/meee.png"></td>
+                    <td><img src="../images/meee.png"></td>
                   </tr>
                   <tr>
                     <td>Omar ENNEDI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/omar.png"></td>
+                    <td><img src="../images/omar.png"></td>
                   </tr>
                   <tr>
                     <td>Abdo DADLI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/ghizlane.png"></td>
+                    <td><img src="../images/ghizlane.png"></td>
                   </tr>
                   <tr>
                     <td>Sanae LOUAFI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/adnane.png"></td>
+                    <td><img src="../images/adnane.png"></td>
                   </tr>
                   <tr>
                     <td>Sanae LOUAFI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/sadiqi.png"></td>
+                    <td><img src="../images/sadiqi.png"></td>
                   </tr>
                   <tr>
                     <td>Sanae LOUAFI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/rachid.png"></td>
+                    <td><img src="../images/rachid.png"></td>
                   </tr>
                   <tr>
                     <td>Sanae LOUAFI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/ibtissam.png"></td>
+                    <td><img src="../images/ibtissam.png"></td>
                   </tr>
                   <tr>
                     <td>Sanae LOUAFI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/meee.png"></td>
+                    <td><img src="../images/meee.png"></td>
                   </tr>
                   <tr>
                     <td>Sanae LOUAFI</td>
                     <td>2022-2023</td>
                     <td>Exelent</td>
-                    <td><img src="images/omar.png"></td>
+                    <td><img src="../images/omar.png"></td>
                   </tr>
                 </tbody>
               </table>
