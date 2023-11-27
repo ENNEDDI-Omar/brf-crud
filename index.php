@@ -34,36 +34,36 @@
         <li>
           <a href="#" class="logo">marionette<p>high school</p></a>
           <div class="rows">
-            <img src="../Brf06/assets/pages/dashboard-b06/images/add.png">
+            <img src="../brf-crud/images/add.png">
             <h1>Add new task</h1>
           </div>
         </li>
         <li class="active">
-          <a href="../brf_crud/index.php" class="active">
+          <a href="../brf-crud/index.php" class="active">
             <span class="title"><i class='bx bxs-home-circle'></i>Dashboard</span>
           </a>
         </li>
 
         <li>
-          <a href="../brf_crud/pages/students.php">
+          <a href="../brf-crud/pages/students.php">
             <span class="title"><i class='bx bxs-user'></i>Students</span>
           </a>
         </li>
 
         <li>
-          <a href="../brf_crud/pages/teachers.php">
+          <a href="../brf-crud/pages/teachers.php">
             <span class="title"><i class='bx bxs-user'></i>Teachers</span>
           </a>
         </li>
 
         <li>
-          <a href="../brf_crud/pages/booking.php">
+          <a href="../brf-crud/pages/booking.php">
             <span class="title"><i class='bx bxs-bookmark-alt'></i>Booking</span>
           </a>
         </li>
 
         <li>
-          <a href="../brf_crud/pages/settings.php">
+          <a href="../brf-crud/pages/settings.php">
             <span class="title"><i class='bx bxs-cog'></i>Settings</span>
           </a>
         </li>
@@ -83,10 +83,10 @@
     <div class="search">
       <input type="text" placeholder="Search">
       <div class="icons">
-        <img src="../brf_crud/images/bell.png" alt="" srcset="">
+        <img src="../brf-crud/images/bell.png" alt="" srcset="">
       </div>
       <div class="admin">
-        <img src="../brf_crud/images/omar.png" alt="" srcset="">
+        <img src="../brf-crud/images/omar.png" alt="" srcset="">
         <div class="name">
           <h1>ENNEDI Omar <span>admin</span></h1>
         </div>
@@ -184,7 +184,7 @@
                     <td><?php echo $rows['Full_Name'];?></td>
                     <td><?php echo $rows['Email'];?></td>
                     <td><?php echo $rows['Branch'];?></td>
-                    <td><img src="../brf_crud/images/<?php echo $rows['Profil'];?>" style="width:40px;height:40px"></td>
+                    <td><img src="../brf-crud/images/<?php echo $rows['Profil'];?>" style="width:40px;height:40px"></td>
                     <td>
                       <!-- <button class="btn btn-default" ><a href=""><i class='bx bx-edit-alt' style='color:#8a8b8c'  ></i></a></button> -->
                       <button class="btn btn-default" ><a href="UPDATE.php?id=<?= $rows['id'] ?>"><i class='bx bx-edit-alt' style='color:#8a8b8c'  ></i></a></button><button class="btn btn-default"><a href="DELETE.php?id=<?= $rows['id']; ?>"><i class='bx bx-trash' style='color:#fe3030' ></i></a></button>
@@ -245,7 +245,7 @@
   </div>
 
 
-  <script src="../brf_crud/js/main.js"></script>
+  <script src="../brf-crud/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="https://cdn.lordicon.com/lordicon.js"></script>
 </body>
