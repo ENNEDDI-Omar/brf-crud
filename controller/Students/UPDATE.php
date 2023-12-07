@@ -1,10 +1,11 @@
 
 <?php
-include 'CONNECT.php';
+include '../../config/CONNECT.php';
+
 $id = $_GET['id'];
 
 if(isset($_POST['Update'])){
-    $name=$_POST['Full_Name'];
+    $name=$_POST['Name'];
     $email=$_POST['Email'];
     $branch=$_POST['Branch'];
     $profil=$_POST['Profil'];
@@ -34,6 +35,7 @@ if (isset($query)) {
 <body>
 
     <?php
+    
     $requete="SELECT * FROM Students where id = $id";
     $query=mysqli_query($conx, $requete);
     $rows = mysqli_fetch_assoc($query);

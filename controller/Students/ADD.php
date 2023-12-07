@@ -1,18 +1,18 @@
 
 <?php
-include'CONNECT.php';
+  require'../../includes/CONNECT.php';
 
 if(isset($_POST['submit'])){
-    $name=$_POST['Full_Name'];
+    $name=$_POST['Name'];
     $email=$_POST['Email'];
     $branch=$_POST['Branch'];
     $profil=$_POST['Profil'];
 
-$requete="INSERT INTO Students(Full_Name, Email, Branch, Profil) 
+$requete="INSERT INTO Students(Name, Email, Branch, Profil) 
           VALUES('$name', '$email', '$branch', '$profil')";
 $query=mysqli_query($conx,$requete);
 if (isset($query)) {
-    header("location:index.php");
+    header("location:../../pages/student/students/students.php");
 }else{
     echo"<h1>INSERTION FAILED</h1>";
 }
@@ -28,18 +28,18 @@ if (isset($query)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../brf-crud/css/form.css">
+    <link rel="stylesheet" href="../../assets/css/form.css">
     <title>Document</title>
 </head>
 <body>
 <div id="form-main">
   <div id="form-div">
-    <form class="form" method="POST" action="ADD.php" id="form1">
+    <form class="form" method="POST" action="" id="form1">
 
     
       
       <p class="name">
-        <input name="Full_Name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+        <input name="Name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Full-Name" id="name" />
       </p>
       
       <p class="email">
@@ -51,7 +51,7 @@ if (isset($query)) {
       </p>
 
       <p class="profil">
-        <input name="Profil" type="file" accept="image/jpg, image/png, image/jpeg," class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+        <input name="Profil" type="file" accept="image/jpg, image/png, image/jpeg," class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="profil" id="name" />
       </p>
     
       
