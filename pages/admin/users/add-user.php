@@ -12,7 +12,7 @@
 <body>
 <div id="form-main">
   <div id="form-div">
-    <form class="form" method="POST" action="../../../controller/admin/add.php" enctype="multipart/form-data" id="form1">
+    <form name="valdform" class="form" method="POST" action="../../../controller/admin/add.php" onsubmit="return validationForm()" enctype="multipart/form-data" id="form1">
 
     
       
@@ -49,5 +49,33 @@
       </div>
     </form>
   </div>   
+  
+  <script>
+    function validationForm() {
+      let username=document.forms["valdform"]["Name"];
+      let email=document.forms["valdform"]["Email"];
+      let pass=document.forms["valdform"]["Password"];
+      let emailRegex =/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)$/;
+
+      if (username.value=="") {
+        alert("Please enter your name");
+        username.focus();
+        return false;
+      }
+
+      if (email.value==="" && !email.value.match(emailRegex)) {
+        alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+      }
+      if (pass.value==""&& password.value.length <= 3) {
+        alert("Please entre a valid password");
+        pass.focus();
+        return false;
+      }
+      
+      return true;
+    }
+  </script>
 </body>
 </html>
